@@ -494,6 +494,31 @@
   .edu-link:hover{ color:var(--ink); border-color:var(--ink); }
 
   /* ---------- LEADERSHIP WHEEL ---------- */
+  .realization-block{ max-width:760px; margin:0 auto; }
+  .realization-lead{
+    display:flex; align-items:baseline; gap:20px; margin-bottom:8px;
+    flex-wrap:wrap; justify-content:center; text-align:center;
+  }
+  .realization-lead .rl-num{ font-family:var(--mono); font-weight:700; font-size:58px; color:var(--brass); line-height:1; }
+  .realization-lead .rl-label{ font-size:15px; color:var(--paper); opacity:0.75; max-width:30ch; text-align:left; }
+  .realization-list{ border-top:1px solid var(--line); margin-top:36px; }
+  .realization-item{
+    display:flex; align-items:flex-start; gap:26px; padding:30px 0;
+    border-bottom:1px solid var(--line);
+  }
+  .realization-item .ri-num{
+    font-family:var(--mono); font-weight:600; font-size:14px; color:var(--brass);
+    flex-shrink:0; padding-top:6px; width:24px;
+  }
+  .realization-item h4{
+    font-family:var(--display); font-weight:600; font-size:23px; line-height:1.4; color:var(--paper);
+    max-width:34ch;
+  }
+  @media (max-width:640px){
+    .realization-lead{ flex-direction:column; align-items:center; gap:6px; }
+    .realization-lead .rl-label{ text-align:center; }
+    .realization-item h4{ font-size:19px; }
+  }
   .lead-grid{ display:grid; grid-template-columns:0.9fr 1.1fr; gap:56px; align-items:center; }
   @media (max-width:900px){ .lead-grid{grid-template-columns:1fr;} }
   .lead-grid h2{ font-size:32px; color:var(--paper); margin-bottom:16px; }
@@ -1039,24 +1064,27 @@
     </div>
   </div>
   <div class="wrap" style="margin-top:56px;">
-    <div class="edu-grid reveal">
-      <div class="edu-card">
-        <div class="et-tag">01 · Philosophy</div>
-        <h3>Business-Gap-First</h3>
-        <p>Solve from the business gap, not the tech trend.</p>
+    <div class="realization-block reveal">
+      <div class="realization-lead">
+        <span class="rl-num">20+</span>
+        <span class="rl-label">Years in the workforce taught me three things the hard way</span>
       </div>
-      <div class="edu-card">
-        <div class="et-tag">02 · Philosophy</div>
-        <h3>Coach-Through-Doing</h3>
-        <p>Hands-on — for learning, deal support, and customer engagement, not directing from the sideline.</p>
-      </div>
-      <div class="edu-card">
-        <div class="et-tag">03 · Philosophy</div>
-        <h3>Outcome-Over-Activity</h3>
-        <p>A repeatable framework only holds up if the team culture behind it does too.</p>
+      <div class="realization-list">
+        <div class="realization-item">
+          <span class="ri-num">01</span>
+          <h4>Success starts with the business gap — not the tech trend.</h4>
+        </div>
+        <div class="realization-item">
+          <span class="ri-num">02</span>
+          <h4>You can't coach what you haven't done. I had to stay curious enough to stay hands-on.</h4>
+        </div>
+        <div class="realization-item">
+          <span class="ri-num">03</span>
+          <h4>Consistency is nearly impossible without a strong culture behind it.</h4>
+        </div>
       </div>
     </div>
-    <div class="theme-line reveal" style="margin-top:40px; color:var(--paper);"><span>How I lead — and live</span>I hire for character over pedigree. I play the long game — patient by conviction, fixing what's broken instead of chasing what's fast. Real change compounds over time. It's not just my management style. It's how I try to live.</div>
+    <div class="theme-line reveal" style="margin-top:44px; color:var(--paper);"><span>How I lead — and live</span>I hire for character over pedigree. I play the long game — patient by conviction, fixing what's broken instead of chasing what's fast. Real change compounds over time. It's not just my management style. It's how I try to live.</div>
   </div>
 </section>
 
