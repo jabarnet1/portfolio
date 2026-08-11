@@ -20,8 +20,9 @@ The site is a small multi-page static site. The homepage carries the primary nar
 | `vpw.html` | Case study — Vision Planning Workshop, evolution from an internal research tool (1.0) to a customer-facing alignment methodology (2.0) |
 | `essentials.html` | Case study — Essentials by Adobe, a B2B advisor productivity platform (React/Node.js front end, Adobe Experience Cloud backend) |
 | `libre-leadgen.html` | Case study — a personal project: an agentic LangGraph lead-gen pipeline built for a spouse's café catering expansion, used to learn LangGraph hands-on |
+| `codebcool.html` | Case study — a volunteer program teaching kids to code with MIT Scratch across two seasons, twenty sessions |
 | `education.html` | Academic Foundation — M.S., Computer and Information Technology (MCIT), University of Pennsylvania |
-| `assets/` | Media (keynote video clip, NHL project demo video) |
+| `assets/` | Media (keynote video clip, NHL project demo video, café video) |
 
 ## Tech Stack
 
