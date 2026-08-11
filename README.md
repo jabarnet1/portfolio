@@ -19,8 +19,9 @@ The site is a small multi-page static site. The homepage carries the primary nar
 | `index.html` | Main page — hero, track record, career origin story, AI practical journey, industry impact, executive presence (keynote), customer engagement framework, leadership philosophy, team development, industry breadth, and contact |
 | `vpw.html` | Case study — Vision Planning Workshop, evolution from an internal research tool (1.0) to a customer-facing alignment methodology (2.0) |
 | `essentials.html` | Case study — Essentials by Adobe, a B2B advisor productivity platform (React/Node.js front end, Adobe Experience Cloud backend) |
+| `libre-leadgen.html` | Case study — a personal project: an agentic LangGraph lead-gen pipeline built for a spouse's café catering expansion, used to learn LangGraph hands-on |
 | `education.html` | Academic Foundation — M.S., Computer and Information Technology (MCIT), University of Pennsylvania |
-| `assets/` | Media (keynote video clip) |
+| `assets/` | Media (keynote video clip, NHL project demo video) |
 
 ## Tech Stack
 
